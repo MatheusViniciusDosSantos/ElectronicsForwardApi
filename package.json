@@ -1,0 +1,23 @@
+{
+  "name": "electronicsforwardapi",
+  "version": "1.0.0",
+  "description": "Loja de produtos eletrônicos ElectronicsForward",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusViniciusDosSantos/ElectronicsForwardApi.git"
+  },
+  "author": "Matheus Vinícius dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusViniciusDosSantos/ElectronicsForwardApi/issues"
+  },
+  "homepage": "https://github.com/MatheusViniciusDosSantos/ElectronicsForwardApi#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
