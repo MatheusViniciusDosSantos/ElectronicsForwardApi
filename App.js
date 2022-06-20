@@ -2,6 +2,7 @@
 
 const express = require("express");
 const cors = require("cors");
+const CounterRoute = require("./routes/CounterRoute");
 const porta = process.env.PORT || 3000;
 
 class App{
@@ -36,6 +37,8 @@ class App{
         app.listen(porta, () => {
             console.log("O servidor foi iniciado na porta: ${porta}")
         })
+
+        new CounterRoute(app)
     }
 
 }

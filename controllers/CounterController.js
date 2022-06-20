@@ -1,3 +1,4 @@
+const CounterService = require("../service/CounterService");
 
 module.exports = class CounterController{
     static async getCounter(req, res) {
